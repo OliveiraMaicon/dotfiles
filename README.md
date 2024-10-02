@@ -19,9 +19,9 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
-### ZSH Plugins
+## ZSH Plugins
 
-###Install zsh-autosuggestions:
+### Install zsh-autosuggestions:
 
 ```sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -31,8 +31,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ```sh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
-### Open the ”~/.zshrc” file in your desired editor and modify the plugins line to what you see below.
 ```sh
+#Open the ”~/.zshrc” file in your desired editor and modify the plugins line to what you see below.
+
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 ```
 
