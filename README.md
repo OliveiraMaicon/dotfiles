@@ -40,7 +40,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 ```sh
 rm -rf ~/.zshrc
 ```
-### Setup dot dotfiles
+### Setup dotfiles
 ```sh
 git clone --recurse-submodules https://github.com/OliveiraMaicon/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
