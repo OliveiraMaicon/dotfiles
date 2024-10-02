@@ -1,0 +1,7 @@
+[user]
+	name = Maicon de Oliveira
+	email = 3856648+OliveiraMaicon@users.noreply.github.com
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
